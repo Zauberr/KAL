@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>rammbo</name>
+  <version>0.0.0</version>
+  <description>ToDo: Edit package description</description>
+
+  <license>contact-the-maintainer</license>
+  <maintainer email="andre.schubert@student.kit.edu">Andre Schubert</maintainer>
+  <author email="andre.schubert@student.kit.edu">Andre Schubert</author>
+  <url type="repository">https://gitlab.mrt.uni-karlsruhe.de/kal5/rammbo</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>mrt_cmake_modules</build_depend>
+  <test_depend>gtest</test_depend>
+  <!--
+    Documentation for dependencies:
+    <build_depend>            Build-time dependency required to build
+                              this package, e.g. boost, opencv.
+    <build_export_depend>     Exported build-time dependency required to
+                              build packages that depend on this package,
+                              e.g. boost, opencv.
+    <exec_depend>             Execution dependency required to run this
+                              package, e.g. boost, opencv.
+    <depend>                  Build-time, exported build-time and execution
+                              dependency. This is a bundled synonym for
+                              <build_depend>, <build_export_depend> and
+                              <exec_depend>.
+  -->
+  <!--
+    Example:
+    <depend>mrt_opencv</depend>
+  -->
+  <depend>joy_converter_ros_tool</depend>
+  <depend>kinect2_bridge</depend>
+  <depend>vehicle_setup</depend>
+  <depend>additional_task_ros_tool</depend>
+  <depend>anicar_longitudinal_control_ros_tool</depend>
+  <depend>anicar_lateral_control_ros_tool</depend>
+  <depend>motor_interface_ros_tool</depend>
+  <depend>path_planner_ros_tool</depend>
+  <depend>map_provider_ros_tool</depend>
+  <depend>obstacle_detection_ros_tool</depend>
+  <depend>sign_detection_ros_tool</depend>
+
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+  </export>
+</package>

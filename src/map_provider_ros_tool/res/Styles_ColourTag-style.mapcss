@@ -1,0 +1,25 @@
+meta {
+    title: "colour node tag";
+    version: "3_2018-03-24";
+    description: "Displays ways in the colour of their colour tag. Supprted formats are 6 digit RGB hexadecimal (#112233), 3 digit RGB hexadecimal (#123) and CSS color names (green).";
+   /* icon: "colourtag.svg"; */
+    author: "Klumbumbus";
+    link: "https://josm.openstreetmap.de/wiki/Styles/ColourTag";
+    /* min-josm-version: "????"; not sure*/
+}
+
+meta[lang=de] {
+    title: "Farb-Merkmal";
+    description: "Zeigt Linien in der Farbe ihres colour-Merkmals an. Unterstützte Formate sind RGB-hexadezimal mit 6 Zeichen (#112233), RGB-hexadezimal mit 3 Zeichen (#123) und CSS Farbnamen (green).";
+    link: "https://josm.openstreetmap.de/wiki/De:Styles/ColourTag";
+}
+
+
+node {
+  symbol-shape: square; 
+  symbol-size: 0;
+  symbol-stroke-color: tag(colour);
+  symbol-stroke-width: 1;
+  symbol-fill-color: tag(colour);
+
+}

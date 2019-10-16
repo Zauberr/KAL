@@ -1,0 +1,12 @@
+<library path="lib/libmap_provider_nodelet">
+<class name="map_provider_ros_tool/MapProviderNodelet"
+       type="map_provider_ros_tool::MapProviderNodelet" base_class_type="nodelet::Nodelet">
+  <description></description>
+</class>
+</library>
+<library path="lib/libposition_to_osm_nodelet">
+<class name="map_provider_ros_tool/PositionToOsmNodelet"
+       type="map_provider_ros_tool::PositionToOsmNodelet" base_class_type="nodelet::Nodelet">
+  <description></description>
+</class>
+</library>

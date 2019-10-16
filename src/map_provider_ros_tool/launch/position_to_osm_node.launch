@@ -1,0 +1,9 @@
+<launch>
+
+  <arg name="config" default="$(find map_provider_ros_tool)/launch/params/position_to_osm_parameters.yaml" />
+
+  <node pkg="map_provider_ros_tool" type="position_to_osm" name="position_to_osm" output="screen">
+    <rosparam command="load" file="$(arg config)"/>
+  </node>
+
+</launch>

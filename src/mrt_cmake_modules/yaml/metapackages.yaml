@@ -1,0 +1,15 @@
+# This file contains a list of metapackages and the packages they contain.
+# This is required for resolving dependencies that are part of metapackages.
+# The format is <metapackage>: [<package1>, <package2>, ...]
+
+lanelet2:
+- lanelet2
+- lanelet2_core
+- lanelet2_io
+- lanelet2_projection
+- lanelet2_traffic_rules
+- lanelet2_routing
+- lanelet2_python
+- lanelet2_maps
+- lanelet2_validation
+- lanelet2_examples

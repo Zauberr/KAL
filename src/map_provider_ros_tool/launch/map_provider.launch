@@ -1,0 +1,9 @@
+<launch>
+
+    <arg name="config" default="$(find map_provider_ros_tool)/launch/params/map_provider_parameters.yaml" />
+
+    <node pkg="map_provider_ros_tool" type="map_provider" name="map_provider" output="screen">
+        <rosparam command="load" file="$(arg config)"/>
+    </node>
+
+</launch>
