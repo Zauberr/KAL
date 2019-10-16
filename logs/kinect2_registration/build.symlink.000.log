@@ -1,0 +1,8 @@
+Warning: Cannot symlink from /home/kal5-2/rammbo/devel/.private/kinect2_registration/local_setup.sh to existing file /home/kal5-2/rammbo/devel/./local_setup.sh
+Warning: Source hash: fc2199ba356fac015e17478fba33a166
+Warning: Dest hash: 7f781bb141ca83ed4e78a5b51f28807c
+Symlinking /home/kal5-2/rammbo/devel/share/kinect2_registration/cmake/kinect2_registrationConfig.cmake
+Symlinking /home/kal5-2/rammbo/devel/share/kinect2_registration/cmake/kinect2_registrationConfig-version.cmake
+Symlinking /home/kal5-2/rammbo/devel/share/kinect2_registration/cmake/kinect2_registration.cmake
+Symlinking /home/kal5-2/rammbo/devel/lib/libkinect2_registration.so
+Symlinking /home/kal5-2/rammbo/devel/lib/pkgconfig/kinect2_registration.pc

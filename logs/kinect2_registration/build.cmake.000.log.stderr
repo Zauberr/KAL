@@ -1,0 +1,27 @@
+[33m[1mCMake Warning[0m at /home/kal5-2/rammbo/src/kinect2_registration/CMakeLists.txt:60 (message):
+  Your libOpenCL.so is incompatible with CL/cl.h.  Install ocl-icd-opencl-dev
+  to update libOpenCL.so?
+
+
+[33m[1mCMake Warning[0m at /home/kal5-2/rammbo/src/kinect2_registration/CMakeLists.txt:130 (add_library):
+  Cannot generate a safe linker search path for target kinect2_registration
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    link library [libOpenCL.so] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/cuda/lib64
+
+  Some of these libraries may not be found correctly.
+
+
+[33m[1mCMake Warning[0m at /home/kal5-2/rammbo/src/kinect2_registration/CMakeLists.txt:130 (add_library):
+  Cannot generate a safe runtime search path for target kinect2_registration
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libOpenCL.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/cuda/lib64
+
+  Some of these libraries may not be found correctly.
+
+

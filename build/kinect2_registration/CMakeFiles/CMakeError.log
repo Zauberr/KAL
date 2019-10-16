@@ -1,0 +1,88 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/kal5-2/rammbo/build/kinect2_registration/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f5027/fast 
+make: Warning: File 'Makefile' has modification time 0,019 s in the future
+/usr/bin/make -f CMakeFiles/cmTC_f5027.dir/build.make CMakeFiles/cmTC_f5027.dir/build
+make[1]: Entering directory '/home/kal5-2/rammbo/build/kinect2_registration/CMakeFiles/CMakeTmp'
+make[1]: Warning: File 'CMakeFiles/cmTC_f5027.dir/flags.make' has modification time 0,016 s in the future
+Building C object CMakeFiles/cmTC_f5027.dir/CheckSymbolExists.c.o
+/usr/lib/ccache/cc    -o CMakeFiles/cmTC_f5027.dir/CheckSymbolExists.c.o   -c /home/kal5-2/rammbo/build/kinect2_registration/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f5027
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5027.dir/link.txt --verbose=1
+/usr/lib/ccache/cc      -rdynamic CMakeFiles/cmTC_f5027.dir/CheckSymbolExists.c.o  -o cmTC_f5027 
+CMakeFiles/cmTC_f5027.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f5027.dir/build.make:86: recipe for target 'cmTC_f5027' failed
+make[1]: *** [cmTC_f5027] Error 1
+make[1]: Leaving directory '/home/kal5-2/rammbo/build/kinect2_registration/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_f5027/fast' failed
+make: *** [cmTC_f5027/fast] Error 2
+
+File /home/kal5-2/rammbo/build/kinect2_registration/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/kal5-2/rammbo/build/kinect2_registration/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8c971/fast 
+make: Warning: File 'Makefile' has modification time 0,021 s in the future
+/usr/bin/make -f CMakeFiles/cmTC_8c971.dir/build.make CMakeFiles/cmTC_8c971.dir/build
+make[1]: Entering directory '/home/kal5-2/rammbo/build/kinect2_registration/CMakeFiles/CMakeTmp'
+make[1]: Warning: File 'CMakeFiles/cmTC_8c971.dir/flags.make' has modification time 0,018 s in the future
+Building C object CMakeFiles/cmTC_8c971.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8c971.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8c971
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c971.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_8c971.dir/CheckFunctionExists.c.o  -o cmTC_8c971 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_8c971.dir/build.make:86: recipe for target 'cmTC_8c971' failed
+make[1]: *** [cmTC_8c971] Error 1
+make[1]: Leaving directory '/home/kal5-2/rammbo/build/kinect2_registration/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_8c971/fast' failed
+make: *** [cmTC_8c971/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test OpenCL_CXX_WORKS failed with the following output:
+Change Dir: /home/kal5-2/rammbo/build/kinect2_registration/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fefab/fast 
+make: Warning: File 'Makefile' has modification time 0,024 s in the future
+/usr/bin/make -f CMakeFiles/cmTC_fefab.dir/build.make CMakeFiles/cmTC_fefab.dir/build
+make[1]: Entering directory '/home/kal5-2/rammbo/build/kinect2_registration/CMakeFiles/CMakeTmp'
+make[1]: Warning: File 'CMakeFiles/cmTC_fefab.dir/flags.make' has modification time 0,016 s in the future
+Building CXX object CMakeFiles/cmTC_fefab.dir/src.cxx.o
+/usr/lib/ccache/c++   -I/include/internal  -DBT_USE_DOUBLE_PRECISION -Wall -Wuninitialized -Winit-self -Wunused-function -Wunused-label -Wunused-variable -Wunused-but-set-variable -Wunused-but-set-parameter -Warray-bounds -Wtype-limits -Wreturn-type -Wsequence-point -Wparentheses -Wmissing-braces -Wchar-subscripts -Wswitch -Wwrite-strings -Wenum-compare -Wempty-body -std=c++11 -fopenmp -DOpenCL_CXX_WORKS   -o CMakeFiles/cmTC_fefab.dir/src.cxx.o -c /home/kal5-2/rammbo/build/kinect2_registration/CMakeFiles/CMakeTmp/src.cxx
+/home/kal5-2/rammbo/build/kinect2_registration/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: CL/cl.hpp: No such file or directory
+ #include <CL/cl.hpp>
+          ^~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_fefab.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_fefab.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_fefab.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/kal5-2/rammbo/build/kinect2_registration/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_fefab/fast' failed
+make: *** [cmTC_fefab/fast] Error 2
+
+Source file was:
+
+#include <CL/cl.hpp>
+int main() {
+  cl::Context context;
+  cl::Platform platform;
+  cl::Device device;
+  return 0;
+}

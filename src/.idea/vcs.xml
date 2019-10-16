@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/additional_task_ros_tool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/anicar_lateral_control_ros_tool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/anicar_longitudinal_control_ros_tool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/automated_driving_msgs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/driver_base" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/fmt" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/generic_logger" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hector_map_tools" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hector_nav_msgs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hector_trajectory_server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/image_crop_coordinate_converter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/image_preproc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/image_preproc_ros_tool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/image_view" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/joy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/joy_converter_ros_tool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/kinect2_bridge" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/kinect2_registration" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/map_provider_ros_tool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/motor_interface" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/motor_interface_ros_tool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mrt_cmake_modules" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mrt_image_geometry_ros" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/obstacle_detection_ros_tool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/path_planner_ros_tool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/prosilica_driver" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/prosilica_gige_sdk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rammbo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rosinterface_handler" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rosparam_handler" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sign_detection_ros_tool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spdlog" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/stargazer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/stargazer_ros_tool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/util_testing_ros" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/utils_ros" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vehicle_setup" vcs="Git" />
+  </component>
+</project>

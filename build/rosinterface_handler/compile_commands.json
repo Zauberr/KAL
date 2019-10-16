@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/kal5-2/rammbo/build/rosinterface_handler",
+  "command": "/usr/lib/ccache/c++  -DDYNAMIC_RECONFIGURE_FOUND -DMESSAGE_FILTERS_FOUND -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rosinterface_handler\\\" -I/home/kal5-2/rammbo/devel/.private/rosinterface_handler/include -I/opt/mrtros/include -I/opt/mrtros/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/kal5-2/rammbo/src/rosinterface_handler/include -I/usr/src/googletest/googletest/include   -std=c++14 -O2 -g -DNDEBUG   -std=gnu++14 -o CMakeFiles/rosinterface_handler_test.dir/test/src/test_defaults.cpp.o -c /home/kal5-2/rammbo/src/rosinterface_handler/test/src/test_defaults.cpp",
+  "file": "/home/kal5-2/rammbo/src/rosinterface_handler/test/src/test_defaults.cpp"
+},
+{
+  "directory": "/home/kal5-2/rammbo/build/rosinterface_handler",
+  "command": "/usr/lib/ccache/c++  -DDYNAMIC_RECONFIGURE_FOUND -DMESSAGE_FILTERS_FOUND -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rosinterface_handler\\\" -I/home/kal5-2/rammbo/devel/.private/rosinterface_handler/include -I/opt/mrtros/include -I/opt/mrtros/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/kal5-2/rammbo/src/rosinterface_handler/include -I/usr/src/googletest/googletest/include   -std=c++14 -O2 -g -DNDEBUG   -std=gnu++14 -o CMakeFiles/rosinterface_handler_test.dir/test/src/test_defaultsAtLaunch.cpp.o -c /home/kal5-2/rammbo/src/rosinterface_handler/test/src/test_defaultsAtLaunch.cpp",
+  "file": "/home/kal5-2/rammbo/src/rosinterface_handler/test/src/test_defaultsAtLaunch.cpp"
+},
+{
+  "directory": "/home/kal5-2/rammbo/build/rosinterface_handler",
+  "command": "/usr/lib/ccache/c++  -DDYNAMIC_RECONFIGURE_FOUND -DMESSAGE_FILTERS_FOUND -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rosinterface_handler\\\" -I/home/kal5-2/rammbo/devel/.private/rosinterface_handler/include -I/opt/mrtros/include -I/opt/mrtros/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/kal5-2/rammbo/src/rosinterface_handler/include -I/usr/src/googletest/googletest/include   -std=c++14 -O2 -g -DNDEBUG   -std=gnu++14 -o CMakeFiles/rosinterface_handler_test.dir/test/src/test_defaultsMissing.cpp.o -c /home/kal5-2/rammbo/src/rosinterface_handler/test/src/test_defaultsMissing.cpp",
+  "file": "/home/kal5-2/rammbo/src/rosinterface_handler/test/src/test_defaultsMissing.cpp"
+},
+{
+  "directory": "/home/kal5-2/rammbo/build/rosinterface_handler",
+  "command": "/usr/lib/ccache/c++  -DDYNAMIC_RECONFIGURE_FOUND -DMESSAGE_FILTERS_FOUND -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rosinterface_handler\\\" -I/home/kal5-2/rammbo/devel/.private/rosinterface_handler/include -I/opt/mrtros/include -I/opt/mrtros/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/kal5-2/rammbo/src/rosinterface_handler/include -I/usr/src/googletest/googletest/include   -std=c++14 -O2 -g -DNDEBUG   -std=gnu++14 -o CMakeFiles/rosinterface_handler_test.dir/test/src/test_diagnosed_subscriber.cpp.o -c /home/kal5-2/rammbo/src/rosinterface_handler/test/src/test_diagnosed_subscriber.cpp",
+  "file": "/home/kal5-2/rammbo/src/rosinterface_handler/test/src/test_diagnosed_subscriber.cpp"
+},
+{
+  "directory": "/home/kal5-2/rammbo/build/rosinterface_handler",
+  "command": "/usr/lib/ccache/c++  -DDYNAMIC_RECONFIGURE_FOUND -DMESSAGE_FILTERS_FOUND -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rosinterface_handler\\\" -I/home/kal5-2/rammbo/devel/.private/rosinterface_handler/include -I/opt/mrtros/include -I/opt/mrtros/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/kal5-2/rammbo/src/rosinterface_handler/include -I/usr/src/googletest/googletest/include   -std=c++14 -O2 -g -DNDEBUG   -std=gnu++14 -o CMakeFiles/rosinterface_handler_test.dir/test/src/test_main.cpp.o -c /home/kal5-2/rammbo/src/rosinterface_handler/test/src/test_main.cpp",
+  "file": "/home/kal5-2/rammbo/src/rosinterface_handler/test/src/test_main.cpp"
+},
+{
+  "directory": "/home/kal5-2/rammbo/build/rosinterface_handler",
+  "command": "/usr/lib/ccache/c++  -DDYNAMIC_RECONFIGURE_FOUND -DMESSAGE_FILTERS_FOUND -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rosinterface_handler\\\" -I/home/kal5-2/rammbo/devel/.private/rosinterface_handler/include -I/opt/mrtros/include -I/opt/mrtros/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/kal5-2/rammbo/src/rosinterface_handler/include -I/usr/src/googletest/googletest/include   -std=c++14 -O2 -g -DNDEBUG   -std=gnu++14 -o CMakeFiles/rosinterface_handler_test.dir/test/src/test_minMax.cpp.o -c /home/kal5-2/rammbo/src/rosinterface_handler/test/src/test_minMax.cpp",
+  "file": "/home/kal5-2/rammbo/src/rosinterface_handler/test/src/test_minMax.cpp"
+}
+]

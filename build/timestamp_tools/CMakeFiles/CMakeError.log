@@ -1,0 +1,59 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/kal5-2/rammbo/build/timestamp_tools/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d0c26/fast 
+make: Warning: File 'Makefile' has modification time 0,00012 s in the future
+/usr/bin/make -f CMakeFiles/cmTC_d0c26.dir/build.make CMakeFiles/cmTC_d0c26.dir/build
+make[1]: Entering directory '/home/kal5-2/rammbo/build/timestamp_tools/CMakeFiles/CMakeTmp'
+make[1]: Warning: File 'CMakeFiles/cmTC_d0c26.dir/progress.make' has modification time 0,0052 s in the future
+Building C object CMakeFiles/cmTC_d0c26.dir/CheckSymbolExists.c.o
+/usr/lib/ccache/cc    -o CMakeFiles/cmTC_d0c26.dir/CheckSymbolExists.c.o   -c /home/kal5-2/rammbo/build/timestamp_tools/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d0c26
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0c26.dir/link.txt --verbose=1
+/usr/lib/ccache/cc      -rdynamic CMakeFiles/cmTC_d0c26.dir/CheckSymbolExists.c.o  -o cmTC_d0c26 
+CMakeFiles/cmTC_d0c26.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d0c26.dir/build.make:86: recipe for target 'cmTC_d0c26' failed
+make[1]: *** [cmTC_d0c26] Error 1
+make[1]: Leaving directory '/home/kal5-2/rammbo/build/timestamp_tools/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_d0c26/fast' failed
+make: *** [cmTC_d0c26/fast] Error 2
+
+File /home/kal5-2/rammbo/build/timestamp_tools/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/kal5-2/rammbo/build/timestamp_tools/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bfd2a/fast 
+make: Warning: File 'Makefile' has modification time 0,0021 s in the future
+/usr/bin/make -f CMakeFiles/cmTC_bfd2a.dir/build.make CMakeFiles/cmTC_bfd2a.dir/build
+make[1]: Entering directory '/home/kal5-2/rammbo/build/timestamp_tools/CMakeFiles/CMakeTmp'
+make[1]: Warning: File 'CMakeFiles/cmTC_bfd2a.dir/progress.make' has modification time 0,0031 s in the future
+Building C object CMakeFiles/cmTC_bfd2a.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_bfd2a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bfd2a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfd2a.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_bfd2a.dir/CheckFunctionExists.c.o  -o cmTC_bfd2a -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_bfd2a.dir/build.make:86: recipe for target 'cmTC_bfd2a' failed
+make[1]: *** [cmTC_bfd2a] Error 1
+make[1]: Leaving directory '/home/kal5-2/rammbo/build/timestamp_tools/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_bfd2a/fast' failed
+make: *** [cmTC_bfd2a/fast] Error 2
+
+

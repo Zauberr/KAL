@@ -1,0 +1,7 @@
+Warning: Cannot symlink from /home/kal5-2/rammbo/devel/.private/spdlog/local_setup.sh to existing file /home/kal5-2/rammbo/devel/./local_setup.sh
+Warning: Source hash: f24828d852440c0ba661c9dc5fa6f57c
+Warning: Dest hash: 7f781bb141ca83ed4e78a5b51f28807c
+Linked: (/home/kal5-2/rammbo/devel/.private/spdlog/share/spdlog/cmake/spdlogConfig.cmake, /home/kal5-2/rammbo/devel/share/spdlog/cmake/spdlogConfig.cmake)
+Linked: (/home/kal5-2/rammbo/devel/.private/spdlog/share/spdlog/cmake/spdlogConfig-version.cmake, /home/kal5-2/rammbo/devel/share/spdlog/cmake/spdlogConfig-version.cmake)
+Linked: (/home/kal5-2/rammbo/devel/.private/spdlog/lib/libspdlog.so, /home/kal5-2/rammbo/devel/lib/libspdlog.so)
+Linked: (/home/kal5-2/rammbo/devel/.private/spdlog/lib/pkgconfig/spdlog.pc, /home/kal5-2/rammbo/devel/lib/pkgconfig/spdlog.pc)

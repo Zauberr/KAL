@@ -1,0 +1,8 @@
+prefix=/home/kal5-2/rammbo/devel/.private/image_view
+
+Name: image_view
+Description: Description of image_view
+Version: 1.12.19
+Cflags: -I/home/kal5-2/rammbo/devel/.private/image_view/include
+Libs: -L/home/kal5-2/rammbo/devel/.private/image_view/lib 
+Requires: dynamic_reconfigure

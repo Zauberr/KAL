@@ -1,0 +1,6 @@
+devel_space: /home/kal5-2/rammbo/devel
+install: false
+install_space: /home/kal5-2/rammbo/install
+profile: release
+source_space: /home/kal5-2/rammbo/src
+workspace: /home/kal5-2/rammbo

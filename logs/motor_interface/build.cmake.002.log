@@ -1,0 +1,39 @@
+Not searching for unused variables given on the command line.
+[33m[1mCMake Warning[0m at /home/kal5-2/rammbo/devel/share/mrt_cmake_modules/cmake/mrt_cmake_modules-extras.cmake:10 (message):
+  Current CMakeLists.txt version is less than the recommended version 2.1.
+  If you are the maintainer, please update it with
+
+  'mrt maintenance update_cmakelists motor_interface'.
+[36mCall Stack (most recent call first):[0m
+  /home/kal5-2/rammbo/devel/share/mrt_cmake_modules/cmake/mrt_cmake_modulesConfig.cmake:199 (include)
+  CMakeLists.txt:9 (find_package)
+
+
+[36m--[0m Found OpenMP_C: -fopenmp
+[36m--[0m Found OpenMP_CXX: -fopenmp
+[36m--[0m Found OpenMP: TRUE
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/kal5-2/rammbo/devel/.private/motor_interface
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/kal5-2/rammbo/devel;/opt/mrtros;/opt/mrtsoftware/local;/opt/mrtsoftware/release
+[36m--[0m This workspace overlays: /home/kal5-2/rammbo/devel;/opt/mrtros;/opt/mrtsoftware/local;/opt/mrtsoftware/release
+[36m--[0m Found PythonInterp: /opt/mrtsoftware/release/lib/mrt-build-tools/bin/python2 (found suitable version "2.7.15", minimum required is "2")
+[36m--[0m Using PYTHON_EXECUTABLE: /opt/mrtsoftware/release/lib/mrt-build-tools/bin/python2
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/bin/empy
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/kal5-2/rammbo/build/motor_interface/test_results
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[36m--[0m Found PythonInterp: /opt/mrtsoftware/release/lib/mrt-build-tools/bin/python2 (found version "2.7.15")
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Using Python nosetests: /usr/bin/nosetests-2.7
+[36m--[0m catkin 0.7.17
+[36m--[0m BUILD_SHARED_LIBS is on
+[31m[1mCMake Error[0m at /home/kal5-2/rammbo/src/mrt_cmake_modules/cmake/Modules/FindAutoDeps.cmake:80 (message):
+  Package iowkit is specified for autodepend but cmake variables are not
+  defined.  Did you resolve dependencies?
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:16 (find_package)
+
+
+[36m--[0m Configuring incomplete, errors occurred!
+See also "/home/kal5-2/rammbo/build/motor_interface/CMakeFiles/CMakeOutput.log".

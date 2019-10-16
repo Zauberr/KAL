@@ -1,0 +1,20 @@
+Warning: Cannot symlink from /home/kal5-2/rammbo/devel/.private/image_view/local_setup.sh to existing file /home/kal5-2/rammbo/devel/./local_setup.sh
+Warning: Source hash: 27c434681c03ec941363e618cdf6c2fe
+Warning: Dest hash: 7f781bb141ca83ed4e78a5b51f28807c
+Linked: (/home/kal5-2/rammbo/devel/.private/image_view/share/image_view/docs/ImageViewConfig.dox, /home/kal5-2/rammbo/devel/share/image_view/docs/ImageViewConfig.dox)
+Linked: (/home/kal5-2/rammbo/devel/.private/image_view/share/image_view/docs/ImageViewConfig.wikidoc, /home/kal5-2/rammbo/devel/share/image_view/docs/ImageViewConfig.wikidoc)
+Linked: (/home/kal5-2/rammbo/devel/.private/image_view/share/image_view/docs/ImageViewConfig-usage.dox, /home/kal5-2/rammbo/devel/share/image_view/docs/ImageViewConfig-usage.dox)
+Linked: (/home/kal5-2/rammbo/devel/.private/image_view/share/image_view/cmake/image_viewConfig.cmake, /home/kal5-2/rammbo/devel/share/image_view/cmake/image_viewConfig.cmake)
+Linked: (/home/kal5-2/rammbo/devel/.private/image_view/share/image_view/cmake/image_viewConfig-version.cmake, /home/kal5-2/rammbo/devel/share/image_view/cmake/image_viewConfig-version.cmake)
+Linked: (/home/kal5-2/rammbo/devel/.private/image_view/include/image_view/ImageViewConfig.h, /home/kal5-2/rammbo/devel/include/image_view/ImageViewConfig.h)
+Linked: (/home/kal5-2/rammbo/devel/.private/image_view/lib/libimage_view.so, /home/kal5-2/rammbo/devel/lib/libimage_view.so)
+Linked: (/home/kal5-2/rammbo/devel/.private/image_view/lib/pkgconfig/image_view.pc, /home/kal5-2/rammbo/devel/lib/pkgconfig/image_view.pc)
+Linked: (/home/kal5-2/rammbo/devel/.private/image_view/lib/python2.7/dist-packages/image_view/__init__.py, /home/kal5-2/rammbo/devel/lib/python2.7/dist-packages/image_view/__init__.py)
+Linked: (/home/kal5-2/rammbo/devel/.private/image_view/lib/python2.7/dist-packages/image_view/cfg/__init__.py, /home/kal5-2/rammbo/devel/lib/python2.7/dist-packages/image_view/cfg/__init__.py)
+Linked: (/home/kal5-2/rammbo/devel/.private/image_view/lib/python2.7/dist-packages/image_view/cfg/ImageViewConfig.py, /home/kal5-2/rammbo/devel/lib/python2.7/dist-packages/image_view/cfg/ImageViewConfig.py)
+Linked: (/home/kal5-2/rammbo/devel/.private/image_view/lib/image_view/image_saver, /home/kal5-2/rammbo/devel/lib/image_view/image_saver)
+Linked: (/home/kal5-2/rammbo/devel/.private/image_view/lib/image_view/disparity_view, /home/kal5-2/rammbo/devel/lib/image_view/disparity_view)
+Linked: (/home/kal5-2/rammbo/devel/.private/image_view/lib/image_view/video_recorder, /home/kal5-2/rammbo/devel/lib/image_view/video_recorder)
+Linked: (/home/kal5-2/rammbo/devel/.private/image_view/lib/image_view/extract_images, /home/kal5-2/rammbo/devel/lib/image_view/extract_images)
+Linked: (/home/kal5-2/rammbo/devel/.private/image_view/lib/image_view/stereo_view, /home/kal5-2/rammbo/devel/lib/image_view/stereo_view)
+Linked: (/home/kal5-2/rammbo/devel/.private/image_view/lib/image_view/image_view, /home/kal5-2/rammbo/devel/lib/image_view/image_view)

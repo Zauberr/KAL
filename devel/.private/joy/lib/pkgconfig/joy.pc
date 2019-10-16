@@ -1,0 +1,8 @@
+prefix=/home/kal5-2/rammbo/devel/.private/joy
+
+Name: joy
+Description: Description of joy
+Version: 1.13.0
+Cflags: 
+Libs: -L/home/kal5-2/rammbo/devel/.private/joy/lib 
+Requires: roscpp diagnostic_updater sensor_msgs

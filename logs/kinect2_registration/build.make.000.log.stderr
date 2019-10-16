@@ -1,0 +1,31 @@
+make[2]: Warning: File 'CMakeFiles/kinect2_registration.dir/depend.make' has modification time 0,017 s in the future
+In file included from /home/kal5-2/rammbo/src/kinect2_registration/src/depth_registration_opencl.cpp:33:0:
+/home/kal5-2/rammbo/src/kinect2_registration/include/internal/CL/cl.hpp: In constructor ‘cl::Image1D::Image1D(const cl::Context&, cl_mem_flags, cl::ImageFormat, size_t, void*, cl_int*)’:
+/home/kal5-2/rammbo/src/kinect2_registration/include/internal/CL/cl.hpp:3367:83: warning: missing braces around initializer for ‘_cl_image_desc::<unnamed union>’ [-Wmissing-braces]
+         cl_image_desc desc = {CL_MEM_OBJECT_IMAGE1D, width, 0, 0, 0, 0, 0, 0, 0, 0};
+                                                                                   ^
+/home/kal5-2/rammbo/src/kinect2_registration/include/internal/CL/cl.hpp: In constructor ‘cl::Image1DBuffer::Image1DBuffer(const cl::Context&, cl_mem_flags, cl::ImageFormat, size_t, const cl::Buffer&, cl_int*)’:
+/home/kal5-2/rammbo/src/kinect2_registration/include/internal/CL/cl.hpp:3439:97: warning: missing braces around initializer for ‘_cl_image_desc::<unnamed union>’ [-Wmissing-braces]
+         cl_image_desc desc = {CL_MEM_OBJECT_IMAGE1D_BUFFER, width, 0, 0, 0, 0, 0, 0, 0, buffer()};
+                                                                                                 ^
+/home/kal5-2/rammbo/src/kinect2_registration/include/internal/CL/cl.hpp: In constructor ‘cl::Image1DArray::Image1DArray(const cl::Context&, cl_mem_flags, cl::ImageFormat, size_t, size_t, size_t, void*, cl_int*)’:
+/home/kal5-2/rammbo/src/kinect2_registration/include/internal/CL/cl.hpp:3513:32: warning: missing braces around initializer for ‘_cl_image_desc::<unnamed union>’ [-Wmissing-braces]
+                               0};
+                                ^
+/home/kal5-2/rammbo/src/kinect2_registration/include/internal/CL/cl.hpp: In constructor ‘cl::Image2D::Image2D(const cl::Context&, cl_mem_flags, cl::ImageFormat, size_t, size_t, size_t, void*, cl_int*)’:
+/home/kal5-2/rammbo/src/kinect2_registration/include/internal/CL/cl.hpp:3612:36: warning: missing braces around initializer for ‘_cl_image_desc::<unnamed union>’ [-Wmissing-braces]
+                                   0};
+                                    ^
+/home/kal5-2/rammbo/src/kinect2_registration/include/internal/CL/cl.hpp: In constructor ‘cl::Image2DArray::Image2DArray(const cl::Context&, cl_mem_flags, cl::ImageFormat, size_t, size_t, size_t, size_t, size_t, void*, cl_int*)’:
+/home/kal5-2/rammbo/src/kinect2_registration/include/internal/CL/cl.hpp:3795:32: warning: missing braces around initializer for ‘_cl_image_desc::<unnamed union>’ [-Wmissing-braces]
+                               0};
+                                ^
+/home/kal5-2/rammbo/src/kinect2_registration/include/internal/CL/cl.hpp: In constructor ‘cl::Image3D::Image3D(const cl::Context&, cl_mem_flags, cl::ImageFormat, size_t, size_t, size_t, size_t, size_t, void*, cl_int*)’:
+/home/kal5-2/rammbo/src/kinect2_registration/include/internal/CL/cl.hpp:3895:36: warning: missing braces around initializer for ‘_cl_image_desc::<unnamed union>’ [-Wmissing-braces]
+                                   0};
+                                    ^
+/home/kal5-2/rammbo/src/kinect2_registration/include/internal/CL/cl.hpp: At global scope:
+/home/kal5-2/rammbo/src/kinect2_registration/include/internal/CL/cl.hpp:4662:32: warning: ignoring attributes on template argument ‘cl_int {aka int}’ [-Wignored-attributes]
+             VECTOR_CLASS<cl_int>* binaryStatus = NULL,
+                                ^
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.

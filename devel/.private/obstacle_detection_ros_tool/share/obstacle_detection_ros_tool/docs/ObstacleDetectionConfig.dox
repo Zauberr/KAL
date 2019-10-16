@@ -1,0 +1,8 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~verbosity" : \b [str] Sets the verbosity for this node min: , default: info, max: 
+- \b "~queue_size" : \b [int] queue size min: 0, default: 15, max: 100
+- \b "~dummy" : \b [double] My Dummy Parameter min: 0.0, default: 0.1, max: 1.0
+

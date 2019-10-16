@@ -1,0 +1,3 @@
+Warning: Cannot symlink from /home/kal5-2/rammbo/devel/.private/rosparam_handler/local_setup.sh to existing file /home/kal5-2/rammbo/devel/./local_setup.sh
+Warning: Source hash: 40f542e2678d375b21a62903f9b443dc
+Warning: Dest hash: 7f781bb141ca83ed4e78a5b51f28807c

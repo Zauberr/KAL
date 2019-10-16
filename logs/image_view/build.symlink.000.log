@@ -1,0 +1,20 @@
+Warning: Cannot symlink from /home/kal5-2/rammbo/devel/.private/image_view/local_setup.sh to existing file /home/kal5-2/rammbo/devel/./local_setup.sh
+Warning: Source hash: 27c434681c03ec941363e618cdf6c2fe
+Warning: Dest hash: 7f781bb141ca83ed4e78a5b51f28807c
+Symlinking /home/kal5-2/rammbo/devel/share/image_view/docs/ImageViewConfig.dox
+Symlinking /home/kal5-2/rammbo/devel/share/image_view/docs/ImageViewConfig.wikidoc
+Symlinking /home/kal5-2/rammbo/devel/share/image_view/docs/ImageViewConfig-usage.dox
+Symlinking /home/kal5-2/rammbo/devel/share/image_view/cmake/image_viewConfig.cmake
+Symlinking /home/kal5-2/rammbo/devel/share/image_view/cmake/image_viewConfig-version.cmake
+Symlinking /home/kal5-2/rammbo/devel/include/image_view/ImageViewConfig.h
+Symlinking /home/kal5-2/rammbo/devel/lib/libimage_view.so
+Symlinking /home/kal5-2/rammbo/devel/lib/pkgconfig/image_view.pc
+Symlinking /home/kal5-2/rammbo/devel/lib/python2.7/dist-packages/image_view/__init__.py
+Symlinking /home/kal5-2/rammbo/devel/lib/python2.7/dist-packages/image_view/cfg/__init__.py
+Symlinking /home/kal5-2/rammbo/devel/lib/python2.7/dist-packages/image_view/cfg/ImageViewConfig.py
+Symlinking /home/kal5-2/rammbo/devel/lib/image_view/image_saver
+Symlinking /home/kal5-2/rammbo/devel/lib/image_view/disparity_view
+Symlinking /home/kal5-2/rammbo/devel/lib/image_view/video_recorder
+Symlinking /home/kal5-2/rammbo/devel/lib/image_view/extract_images
+Symlinking /home/kal5-2/rammbo/devel/lib/image_view/stereo_view
+Symlinking /home/kal5-2/rammbo/devel/lib/image_view/image_view

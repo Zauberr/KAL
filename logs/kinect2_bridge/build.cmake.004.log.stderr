@@ -1,0 +1,13 @@
+[31m[1mCMake Error[0m at /home/kal5-2/rammbo/src/kinect2_bridge/CMakeLists.txt:22 (find_package):
+  Could not find a package configuration file provided by "freenect2" with
+  any of the following names:
+
+    freenect2Config.cmake
+    freenect2-config.cmake
+
+  Add the installation prefix of "freenect2" to CMAKE_PREFIX_PATH or set
+  "freenect2_DIR" to a directory containing one of the above files.  If
+  "freenect2" provides a separate development package or SDK, be sure it has
+  been installed.
+
+

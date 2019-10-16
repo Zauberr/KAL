@@ -1,0 +1,1 @@
+/home/kal5-2/rammbo/devel/.private/driver_base/share/common-lisp/ros/driver_base/msg/_package.lisp

@@ -1,0 +1,3 @@
+Warning: Cannot symlink from /home/kal5-2/rammbo/devel/.private/obstacle_detection_ros_tool/local_setup.sh to existing file /home/kal5-2/rammbo/devel/./local_setup.sh
+Warning: Source hash: f3dec8dc6320566f1670e3f484124f34
+Warning: Dest hash: 7f781bb141ca83ed4e78a5b51f28807c

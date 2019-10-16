@@ -1,0 +1,8 @@
+prefix=/home/kal5-2/rammbo/devel/.private/kinect2_registration
+
+Name: kinect2_registration
+Description: Description of kinect2_registration
+Version: 0.0.1
+Cflags: -I/home/kal5-2/rammbo/src/kinect2_registration/include -I/usr/include
+Libs: -L/home/kal5-2/rammbo/devel/.private/kinect2_registration/lib -lkinect2_registration /usr/lib/x86_64-linux-gnu/libOpenCL.so
+Requires: 

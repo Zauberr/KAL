@@ -1,0 +1,8 @@
+prefix=/home/kal5-2/rammbo/install
+
+Name: rosinterface_handler
+Description: Description of rosinterface_handler
+Version: 0.2.1
+Cflags: -I/home/kal5-2/rammbo/install/include
+Libs: -L/home/kal5-2/rammbo/install/lib 
+Requires: catkin

@@ -1,0 +1,1 @@
+/home/kal5-2/rammbo/devel/.private/fmt/share/fmt/cmake/fmtConfig.cmake

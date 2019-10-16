@@ -1,0 +1,3 @@
+Warning: Cannot symlink from /home/kal5-2/rammbo/devel/.private/automated_driving_msgs/local_setup.sh to existing file /home/kal5-2/rammbo/devel/./local_setup.sh
+Warning: Source hash: 7adab074aae62fc94e2b9526d1193eb4
+Warning: Dest hash: 7f781bb141ca83ed4e78a5b51f28807c

@@ -1,0 +1,1 @@
+/home/kal5-2/rammbo/devel/.private/driver_base/share/roseus/ros/driver_base/manifest.l

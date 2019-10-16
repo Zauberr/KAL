@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target joy_node[0m
+make[2]: Warning: File 'CMakeFiles/joy_node.dir/depend.make' has modification time 0,034 s in the future
+[ 50%] [32mBuilding CXX object CMakeFiles/joy_node.dir/src/joy_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/kal5-2/rammbo/devel/.private/joy/lib/joy/joy_node[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[100%] Built target joy_node

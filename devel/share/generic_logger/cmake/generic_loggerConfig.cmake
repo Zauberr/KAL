@@ -1,0 +1,1 @@
+/home/kal5-2/rammbo/devel/.private/generic_logger/share/generic_logger/cmake/generic_loggerConfig.cmake

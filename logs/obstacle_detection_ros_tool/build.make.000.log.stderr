@@ -1,0 +1,49 @@
+make[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 0,0063 s in the future
+make[2]: Warning: File 'gtest/googlemock/gtest/CMakeFiles/gtest.dir/depend.make' has modification time 0,1 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File 'CMakeFiles/obstacle_detection_ros_tool-obstacle_detection-nodelet.dir/depend.make' has modification time 0,085 s in the future
+In file included from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac_model.h:52:0[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac.h:45[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/segmentation/sac_segmentation.h:49[m[K,
+                 from [01m[K/home/kal5-2/rammbo/src/obstacle_detection_ros_tool/src/obstacle_detection/obstacle_detection.hpp:24[m[K,
+                 from [01m[K/home/kal5-2/rammbo/src/obstacle_detection_ros_tool/src/obstacle_detection/obstacle_detection_nodelet.cpp:5[m[K:
+[01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:[m[K In function ‘[01m[Kvoid __static_initialization_and_destruction_0(int, int)[m[K’:
+[01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpcl::SAC_SAMPLE_SIZE[m[K’ is deprecated: This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class [[01;35m[K-Wdeprecated-declarations[m[K]
+   [01;35m[KSAC_SAMPLE_SIZE[m[K (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));
+   [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[01m[K/home/kal5-2/rammbo/src/obstacle_detection_ros_tool/src/obstacle_detection/obstacle_detection.cpp:[m[K In member function ‘[01m[Kvoid obstacle_detection_ros_tool::ObstacleDetection::mapImport(const Ptr&, nav_msgs::OccupancyGrid&)[m[K’:
+[01m[K/home/kal5-2/rammbo/src/obstacle_detection_ros_tool/src/obstacle_detection/obstacle_detection.cpp:375:27:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+         for (int i = 0; [01;35m[Ki < input->size()[m[K; ++i) {
+                         [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/kal5-2/rammbo/src/obstacle_detection_ros_tool/src/obstacle_detection/obstacle_detection.cpp:373:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kzaehler[m[K’ [[01;35m[K-Wunused-variable[m[K]
+         int [01;35m[Kzaehler[m[K = 0;
+             [01;35m[K^~~~~~~[m[K
+[01m[K/home/kal5-2/rammbo/src/obstacle_detection_ros_tool/src/obstacle_detection/obstacle_detection.cpp:[m[K In member function ‘[01m[Kvoid obstacle_detection_ros_tool::ObstacleDetection::sum(std::vector<signed char>)[m[K’:
+[01m[K/home/kal5-2/rammbo/src/obstacle_detection_ros_tool/src/obstacle_detection/obstacle_detection.cpp:476:27:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+         for(int i = 0 ; [01;35m[Ki <=info.width*info.height-1[m[K; i++){
+                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac_model.h:52:0[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac.h:45[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/segmentation/sac_segmentation.h:49[m[K,
+                 from [01m[K/home/kal5-2/rammbo/src/obstacle_detection_ros_tool/src/obstacle_detection/obstacle_detection.hpp:24[m[K,
+                 from [01m[K/home/kal5-2/rammbo/src/obstacle_detection_ros_tool/src/obstacle_detection/obstacle_detection.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:[m[K In function ‘[01m[Kvoid __static_initialization_and_destruction_0(int, int)[m[K’:
+[01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpcl::SAC_SAMPLE_SIZE[m[K’ is deprecated: This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class [[01;35m[K-Wdeprecated-declarations[m[K]
+   [01;35m[KSAC_SAMPLE_SIZE[m[K (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));
+   [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;36m[Knote: [m[Kdeclared here
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File 'CMakeFiles/obstacle_detection_ros_tool-obstacle_detection-exec.dir/depend.make' has modification time 0,097 s in the future
+In file included from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac_model.h:52:0[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac.h:45[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/segmentation/sac_segmentation.h:49[m[K,
+                 from [01m[K/home/kal5-2/rammbo/src/obstacle_detection_ros_tool/src/obstacle_detection/obstacle_detection.hpp:24[m[K,
+                 from [01m[K/home/kal5-2/rammbo/src/obstacle_detection_ros_tool/src/obstacle_detection/obstacle_detection_node.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:[m[K In function ‘[01m[Kvoid __static_initialization_and_destruction_0(int, int)[m[K’:
+[01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpcl::SAC_SAMPLE_SIZE[m[K’ is deprecated: This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class [[01;35m[K-Wdeprecated-declarations[m[K]
+   [01;35m[KSAC_SAMPLE_SIZE[m[K (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));
+   [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;36m[Knote: [m[Kdeclared here
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[1]: warning:  Clock skew detected.  Your build may be incomplete.

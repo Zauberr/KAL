@@ -1,0 +1,3 @@
+Warning: Cannot symlink from /home/kal5-2/rammbo/devel/.private/stargazer/local_setup.sh to existing file /home/kal5-2/rammbo/devel/./local_setup.sh
+Warning: Source hash: 6bf15e997b5ee8555845410add20ea95
+Warning: Dest hash: 7f781bb141ca83ed4e78a5b51f28807c

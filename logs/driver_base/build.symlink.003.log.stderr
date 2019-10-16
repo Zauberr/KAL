@@ -1,0 +1,3 @@
+Warning: Cannot symlink from /home/kal5-2/rammbo/devel/.private/driver_base/local_setup.sh to existing file /home/kal5-2/rammbo/devel/./local_setup.sh
+Warning: Source hash: e1eb23ae5c8abef02223ae4882a121f5
+Warning: Dest hash: 7f781bb141ca83ed4e78a5b51f28807c

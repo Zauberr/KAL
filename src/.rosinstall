@@ -1,0 +1,74 @@
+- git: {local-name: automated_driving_msgs, uri: 'https://gitlab.mrt.uni-karlsruhe.de/MRT/released/automated_driving_msgs.git',
+    version: development}
+- git: {local-name: rosinterface_handler, uri: 'https://gitlab.mrt.uni-karlsruhe.de/MRT/released/rosinterface_handler.git',
+    version: development}
+- git: {local-name: kinect2_bridge, uri: 'https://gitlab.mrt.uni-karlsruhe.de/MRT/thirdparty/kinect2_bridge.git',
+    version: development}
+- git: {local-name: joy_converter_ros_tool, uri: 'https://gitlab.mrt.uni-karlsruhe.de/kognitive_automobile_labor/joy_converter_ros_tool.git',
+    version: development}
+- git: {local-name: hector_nav_msgs, uri: 'https://gitlab.mrt.uni-karlsruhe.de/MRT/tmp/hector_nav_msgs_ros_tool.git',
+    version: development}
+- git: {local-name: stargazer_ros_tool, uri: 'https://gitlab.mrt.uni-karlsruhe.de/kal5/stargazer_ros_tool.git',
+    version: development}
+- git: {local-name: sign_detection_ros_tool, uri: 'https://gitlab.mrt.uni-karlsruhe.de/kal5/sign_detection_ros_tool.git',
+    version: development}
+- git: {local-name: prosilica_gige_sdk, uri: 'https://gitlab.mrt.uni-karlsruhe.de/kognitive_automobile_labor/prosilica_gige_sdk.git',
+    version: development}
+- git: {local-name: anicar_longitudinal_control_ros_tool, uri: 'https://gitlab.mrt.uni-karlsruhe.de/kal5/anicar_longitudinal_control_ros_tool.git',
+    version: development}
+- git: {local-name: mrt_cmake_modules, uri: 'https://gitlab.mrt.uni-karlsruhe.de/pub/mrt_cmake_modules.git',
+    version: development}
+- git: {local-name: prosilica_driver, uri: 'https://gitlab.mrt.uni-karlsruhe.de/kognitive_automobile_labor/prosilica_driver.git',
+    version: development}
+- git: {local-name: map_provider_ros_tool, uri: 'https://gitlab.mrt.uni-karlsruhe.de/kal5/map_provider_ros_tool.git',
+    version: master}
+- git: {local-name: utils_ros, uri: 'https://gitlab.mrt.uni-karlsruhe.de/MRT/tmp/utils_ros.git',
+    version: development}
+- git: {local-name: additional_task_ros_tool, uri: 'https://gitlab.mrt.uni-karlsruhe.de/kal5/additional_task_ros_tool.git',
+    version: development}
+- git: {local-name: joy, uri: 'https://github.com/ros-gbp/joystick_drivers-release.git',
+    version: development}
+- git: {local-name: obstacle_detection_ros_tool, uri: 'https://gitlab.mrt.uni-karlsruhe.de/kal5/obstacle_detection_ros_tool.git',
+    version: master}
+- git: {local-name: stargazer, uri: 'https://gitlab.mrt.uni-karlsruhe.de/kal5/stargazer.git',
+    version: development}
+- git: {local-name: image_preproc, uri: 'https://gitlab.mrt.uni-karlsruhe.de/MRT/tmp/image_preproc.git',
+    version: development}
+- git: {local-name: hector_trajectory_server, uri: 'https://gitlab.mrt.uni-karlsruhe.de/MRT/tmp/hector_trajectory_server_ros_tool.git',
+    version: development}
+- git: {local-name: anicar_lateral_control_ros_tool, uri: 'https://gitlab.mrt.uni-karlsruhe.de/kal5/anicar_lateral_control_ros_tool.git',
+    version: master}
+- git: {local-name: motor_interface_ros_tool, uri: 'https://gitlab.mrt.uni-karlsruhe.de/kal5/motor_interface_ros_tool.git',
+    version: development}
+- git: {local-name: hector_map_tools, uri: 'https://gitlab.mrt.uni-karlsruhe.de/MRT/tmp/hector_map_tools_ros_tool.git',
+    version: development}
+- git: {local-name: fmt, uri: 'https://gitlab.mrt.uni-karlsruhe.de/MRT/thirdparty/fmt.git',
+    version: development}
+- git: {local-name: util_testing_ros, uri: 'https://gitlab.mrt.uni-karlsruhe.de/MRT/production/util_testing_ros.git',
+    version: development}
+- git: {local-name: image_preproc_ros_tool, uri: 'https://gitlab.mrt.uni-karlsruhe.de/MRT/tmp/image_preproc_ros_tool.git',
+    version: development}
+- git: {local-name: driver_base, uri: 'https://gitlab.mrt.uni-karlsruhe.de/kognitive_automobile_labor/driver_base.git',
+    version: development}
+- git: {local-name: vehicle_setup, uri: 'https://gitlab.mrt.uni-karlsruhe.de/kal5/vehicle_setup.git',
+    version: development}
+- git: {local-name: rammbo, uri: 'https://gitlab.mrt.uni-karlsruhe.de/kal5/rammbo.git',
+    version: development}
+- git: {local-name: path_planner_ros_tool, uri: 'https://gitlab.mrt.uni-karlsruhe.de/kal5/path_planner_ros_tool.git',
+    version: development}
+- git: {local-name: rosparam_handler, uri: 'https://gitlab.mrt.uni-karlsruhe.de/MRT/deprecated/rosparam_handler.git',
+    version: development}
+- git: {local-name: image_crop_coordinate_converter, uri: 'https://gitlab.mrt.uni-karlsruhe.de/MRT/draft/image_crop_coordinate_converter.git',
+    version: development}
+- git: {local-name: mrt_image_geometry_ros, uri: 'https://gitlab.mrt.uni-karlsruhe.de/MRT/draft/mrt_image_geometry_ros.git',
+    version: development}
+- git: {local-name: generic_logger, uri: 'https://gitlab.mrt.uni-karlsruhe.de/MRT/draft/generic_logger.git',
+    version: development}
+- git: {local-name: motor_interface, uri: 'https://gitlab.mrt.uni-karlsruhe.de/kal5/motor_interface.git',
+    version: development}
+- git: {local-name: kinect2_registration, uri: 'https://gitlab.mrt.uni-karlsruhe.de/MRT/thirdparty/kinect2_registration.git',
+    version: development}
+- git: {local-name: image_view, uri: 'https://gitlab.mrt.uni-karlsruhe.de/kognitive_automobile_labor/image_view.git',
+    version: development}
+- git: {local-name: spdlog, uri: 'https://gitlab.mrt.uni-karlsruhe.de/MRT/thirdparty/spdlog.git',
+    version: development}

@@ -1,0 +1,8 @@
+prefix=/home/kal5-2/rammbo/install
+
+Name: obstacle_detection_ros_tool
+Description: Description of obstacle_detection_ros_tool
+Version: 0.0.0
+Cflags: -I/home/kal5-2/rammbo/install/include
+Libs: -L/home/kal5-2/rammbo/install/lib 
+Requires: 

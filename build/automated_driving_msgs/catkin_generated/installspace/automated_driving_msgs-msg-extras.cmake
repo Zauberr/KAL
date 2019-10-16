@@ -1,0 +1,2 @@
+set(automated_driving_msgs_MESSAGE_FILES "msg/AdditionalHeaderForCommunication.msg;msg/BasicSafetyMessage.msg;msg/ClassWithProbability.msg;msg/DeltaPoseWithDeltaTime.msg;msg/DeltaTrajectory.msg;msg/MotionPrediction.msg;msg/MotionState.msg;msg/ObjectClassification.msg;msg/ObjectState.msg;msg/ObjectStateArray.msg;msg/StampedFloat64.msg;msg/Trajectory.msg")
+set(automated_driving_msgs_SERVICE_FILES "")

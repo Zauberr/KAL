@@ -1,0 +1,8 @@
+prefix=/home/kal5-2/rammbo/devel/.private/spdlog
+
+Name: spdlog
+Description: Description of spdlog
+Version: 1.3.1
+Cflags: -I/home/kal5-2/rammbo/src/spdlog/include
+Libs: -L/home/kal5-2/rammbo/devel/.private/spdlog/lib -lspdlog
+Requires: fmt

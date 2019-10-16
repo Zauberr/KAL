@@ -1,0 +1,8 @@
+Warning: Cannot symlink from /home/kal5-2/rammbo/devel/.private/rosparam_handler/local_setup.sh to existing file /home/kal5-2/rammbo/devel/./local_setup.sh
+Warning: Source hash: 40f542e2678d375b21a62903f9b443dc
+Warning: Dest hash: 7f781bb141ca83ed4e78a5b51f28807c
+Symlinking /home/kal5-2/rammbo/devel/share/rosparam_handler/cmake/rosparam_handler-extras.cmake
+Symlinking /home/kal5-2/rammbo/devel/share/rosparam_handler/cmake/rosparam_handlerConfig.cmake
+Symlinking /home/kal5-2/rammbo/devel/share/rosparam_handler/cmake/rosparam_handlerConfig-version.cmake
+Symlinking /home/kal5-2/rammbo/devel/lib/pkgconfig/rosparam_handler.pc
+Symlinking /home/kal5-2/rammbo/devel/lib/python2.7/dist-packages/rosparam_handler/__init__.py

@@ -1,0 +1,8 @@
+Warning: Cannot symlink from /home/kal5-2/rammbo/devel/.private/mrt_cmake_modules/local_setup.sh to existing file /home/kal5-2/rammbo/devel/./local_setup.sh
+Warning: Source hash: 2c2a5a576eb8755255e61efd6c45b4ec
+Warning: Dest hash: 7f781bb141ca83ed4e78a5b51f28807c
+Linked: (/home/kal5-2/rammbo/devel/.private/mrt_cmake_modules/share/mrt_cmake_modules/cmake/mrt_cmake_modules-extras.cmake, /home/kal5-2/rammbo/devel/share/mrt_cmake_modules/cmake/mrt_cmake_modules-extras.cmake)
+Linked: (/home/kal5-2/rammbo/devel/.private/mrt_cmake_modules/share/mrt_cmake_modules/cmake/mrt_cmake_modulesConfig-version.cmake, /home/kal5-2/rammbo/devel/share/mrt_cmake_modules/cmake/mrt_cmake_modulesConfig-version.cmake)
+Linked: (/home/kal5-2/rammbo/devel/.private/mrt_cmake_modules/share/mrt_cmake_modules/cmake/mrt_cmake_modulesConfig.cmake, /home/kal5-2/rammbo/devel/share/mrt_cmake_modules/cmake/mrt_cmake_modulesConfig.cmake)
+Linked: (/home/kal5-2/rammbo/devel/.private/mrt_cmake_modules/lib/pkgconfig/mrt_cmake_modules.pc, /home/kal5-2/rammbo/devel/lib/pkgconfig/mrt_cmake_modules.pc)
+Linked: (/home/kal5-2/rammbo/devel/.private/mrt_cmake_modules/lib/python2.7/dist-packages/mrt_cmake_modules/__init__.py, /home/kal5-2/rammbo/devel/lib/python2.7/dist-packages/mrt_cmake_modules/__init__.py)

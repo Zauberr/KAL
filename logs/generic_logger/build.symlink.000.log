@@ -1,0 +1,7 @@
+Warning: Cannot symlink from /home/kal5-2/rammbo/devel/.private/generic_logger/local_setup.sh to existing file /home/kal5-2/rammbo/devel/./local_setup.sh
+Warning: Source hash: 78bb5b153a72a8a0bc3138707de9b196
+Warning: Dest hash: 7f781bb141ca83ed4e78a5b51f28807c
+Symlinking /home/kal5-2/rammbo/devel/share/generic_logger/cmake/generic_loggerConfig.cmake
+Symlinking /home/kal5-2/rammbo/devel/share/generic_logger/cmake/generic_loggerConfig-version.cmake
+Symlinking /home/kal5-2/rammbo/devel/lib/libgeneric_logger.so
+Symlinking /home/kal5-2/rammbo/devel/lib/pkgconfig/generic_logger.pc

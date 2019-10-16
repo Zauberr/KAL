@@ -1,0 +1,8 @@
+prefix=/home/kal5-2/rammbo/devel/.private/mrt_cmake_modules
+
+Name: mrt_cmake_modules
+Description: Description of mrt_cmake_modules
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/kal5-2/rammbo/devel/.private/mrt_cmake_modules/lib 
+Requires: 

@@ -1,0 +1,1 @@
+/home/kal5-2/rammbo/devel/.private/mrt_image_geometry_ros/lib/pkgconfig/mrt_image_geometry_ros.pc

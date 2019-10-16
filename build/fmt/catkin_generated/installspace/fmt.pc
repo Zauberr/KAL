@@ -1,0 +1,8 @@
+prefix=/home/kal5-2/rammbo/install
+
+Name: fmt
+Description: Description of fmt
+Version: 5.3.0
+Cflags: -I/home/kal5-2/rammbo/install/include
+Libs: -L/home/kal5-2/rammbo/install/lib -lfmt
+Requires: 

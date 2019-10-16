@@ -1,0 +1,8 @@
+prefix=/home/kal5-2/rammbo/install
+
+Name: timestamp_tools
+Description: Description of timestamp_tools
+Version: 1.6.8
+Cflags: -I/home/kal5-2/rammbo/install/include
+Libs: -L/home/kal5-2/rammbo/install/lib 
+Requires: roslib roscpp

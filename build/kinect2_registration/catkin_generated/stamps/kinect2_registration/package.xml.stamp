@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>kinect2_registration</name>
+  <version>0.0.1</version>
+  <description>Fork of https://github.com/code-iai/iai_kinect2</description>
+
+  <maintainer email="tilman.kuehner@kit.edu">Tilman Kuehner</maintainer>
+
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>cv_bridge</build_depend><!-- Depend on cv_bridge instead of libopencv-dev to support ROS Hydro.-->
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>cv_bridge</exec_depend><!-- Depend on cv_bridge instead of libopencv-dev to support ROS Hydro.-->
+
+  <export>
+  </export>
+</package>

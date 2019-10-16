@@ -1,0 +1,8 @@
+prefix=/home/kal5-2/rammbo/devel/.private/prosilica_gige_sdk
+
+Name: prosilica_gige_sdk
+Description: Description of prosilica_gige_sdk
+Version: 1.26.3
+Cflags: -I/home/kal5-2/rammbo/src/prosilica_gige_sdk/include
+Libs: -L/home/kal5-2/rammbo/devel/.private/prosilica_gige_sdk/lib -lPvAPI
+Requires: 

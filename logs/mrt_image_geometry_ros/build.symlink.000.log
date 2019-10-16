@@ -1,0 +1,7 @@
+Warning: Cannot symlink from /home/kal5-2/rammbo/devel/.private/mrt_image_geometry_ros/local_setup.sh to existing file /home/kal5-2/rammbo/devel/./local_setup.sh
+Warning: Source hash: 560aed24d7e1f63a284d48fb5714832e
+Warning: Dest hash: 7f781bb141ca83ed4e78a5b51f28807c
+Symlinking /home/kal5-2/rammbo/devel/share/mrt_image_geometry_ros/cmake/mrt_image_geometry_rosConfig.cmake
+Symlinking /home/kal5-2/rammbo/devel/share/mrt_image_geometry_ros/cmake/mrt_image_geometry_rosConfig-version.cmake
+Symlinking /home/kal5-2/rammbo/devel/lib/libmrt_image_geometry_ros.so
+Symlinking /home/kal5-2/rammbo/devel/lib/pkgconfig/mrt_image_geometry_ros.pc

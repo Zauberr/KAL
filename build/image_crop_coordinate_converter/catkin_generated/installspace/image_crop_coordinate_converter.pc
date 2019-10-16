@@ -1,0 +1,8 @@
+prefix=/home/kal5-2/rammbo/install
+
+Name: image_crop_coordinate_converter
+Description: Description of image_crop_coordinate_converter
+Version: 0.0.0
+Cflags: -I/home/kal5-2/rammbo/install/include -I/usr/include/eigen3
+Libs: -L/home/kal5-2/rammbo/install/lib -limage_crop_coordinate_converter
+Requires: 

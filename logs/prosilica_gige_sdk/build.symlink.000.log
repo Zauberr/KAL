@@ -1,0 +1,7 @@
+Warning: Cannot symlink from /home/kal5-2/rammbo/devel/.private/prosilica_gige_sdk/local_setup.sh to existing file /home/kal5-2/rammbo/devel/./local_setup.sh
+Warning: Source hash: 7126d089ffba347f49446c65cd4b3a5e
+Warning: Dest hash: 7f781bb141ca83ed4e78a5b51f28807c
+Symlinking /home/kal5-2/rammbo/devel/share/prosilica_gige_sdk/cmake/prosilica_gige_sdkConfig.cmake
+Symlinking /home/kal5-2/rammbo/devel/share/prosilica_gige_sdk/cmake/prosilica_gige_sdkConfig-version.cmake
+Symlinking /home/kal5-2/rammbo/devel/lib/libPvAPI.so
+Symlinking /home/kal5-2/rammbo/devel/lib/pkgconfig/prosilica_gige_sdk.pc

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>fmt</name>
+  <version>5.3.0</version>
+  <description>A modern formatting library https://fmt.dev</description>
+
+  <license>BSD</license>
+  <maintainer email="johannes.beck@kit.edu">Johannes Beck</maintainer>
+  <author>Victor Zverovich</author>
+  <author>Jonathan Müller</author>
+  <url type="repository">https://gitlab.mrt.uni-karlsruhe.de/MRT/thirdparty/fmt.git</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>mrt_cmake_modules</build_depend>
+  <test_depend>gtest</test_depend>
+</package>

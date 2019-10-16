@@ -1,0 +1,7 @@
+Warning: Cannot symlink from /home/kal5-2/rammbo/devel/.private/fmt/local_setup.sh to existing file /home/kal5-2/rammbo/devel/./local_setup.sh
+Warning: Source hash: 0af302daef3691d7b61a0f185213972d
+Warning: Dest hash: 7f781bb141ca83ed4e78a5b51f28807c
+Symlinking /home/kal5-2/rammbo/devel/share/fmt/cmake/fmtConfig.cmake
+Symlinking /home/kal5-2/rammbo/devel/share/fmt/cmake/fmtConfig-version.cmake
+Symlinking /home/kal5-2/rammbo/devel/lib/libfmt.so
+Symlinking /home/kal5-2/rammbo/devel/lib/pkgconfig/fmt.pc

@@ -1,0 +1,8 @@
+prefix=/home/kal5-2/rammbo/install
+
+Name: prosilica_gige_sdk
+Description: Description of prosilica_gige_sdk
+Version: 1.26.3
+Cflags: -I/home/kal5-2/rammbo/install/include
+Libs: -L/home/kal5-2/rammbo/install/lib -lPvAPI
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/kal5-2/rammbo/devel/.private/obstacle_detection_ros_tool
+
+Name: obstacle_detection_ros_tool
+Description: Description of obstacle_detection_ros_tool
+Version: 0.0.0
+Cflags: -I/home/kal5-2/rammbo/devel/.private/obstacle_detection_ros_tool/include
+Libs: -L/home/kal5-2/rammbo/devel/.private/obstacle_detection_ros_tool/lib 
+Requires: 

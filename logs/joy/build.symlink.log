@@ -1,0 +1,7 @@
+Warning: Cannot symlink from /home/kal5-2/rammbo/devel/.private/joy/local_setup.sh to existing file /home/kal5-2/rammbo/devel/./local_setup.sh
+Warning: Source hash: 897d2717837436c59d37c7732231baa3
+Warning: Dest hash: 7f781bb141ca83ed4e78a5b51f28807c
+Linked: (/home/kal5-2/rammbo/devel/.private/joy/share/joy/cmake/joyConfig.cmake, /home/kal5-2/rammbo/devel/share/joy/cmake/joyConfig.cmake)
+Linked: (/home/kal5-2/rammbo/devel/.private/joy/share/joy/cmake/joyConfig-version.cmake, /home/kal5-2/rammbo/devel/share/joy/cmake/joyConfig-version.cmake)
+Linked: (/home/kal5-2/rammbo/devel/.private/joy/lib/pkgconfig/joy.pc, /home/kal5-2/rammbo/devel/lib/pkgconfig/joy.pc)
+Linked: (/home/kal5-2/rammbo/devel/.private/joy/lib/joy/joy_node, /home/kal5-2/rammbo/devel/lib/joy/joy_node)

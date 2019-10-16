@@ -1,0 +1,1 @@
+/home/kal5-2/rammbo/devel/.private/spdlog/share/spdlog/cmake/spdlogConfig-version.cmake

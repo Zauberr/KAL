@@ -1,0 +1,9 @@
+\subsubsection usage Usage
+\verbatim
+<node name="obstacle_detection" pkg="obstacle_detection_ros_tool" type="obstacle_detection">
+  <param name="verbosity" type="str" value="info" />
+  <param name="queue_size" type="int" value="15" />
+  <param name="dummy" type="double" value="0.1" />
+</node>
+\endverbatim
+

@@ -1,0 +1,92 @@
+Not searching for unused variables given on the command line.
+[36m--[0m The C compiler identification is GNU 7.4.0
+[36m--[0m The CXX compiler identification is GNU 7.4.0
+[36m--[0m Check for working C compiler: /usr/lib/ccache/cc
+[36m--[0m Check for working C compiler: /usr/lib/ccache/cc -- works
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m Check for working CXX compiler: /usr/lib/ccache/c++
+[36m--[0m Check for working CXX compiler: /usr/lib/ccache/c++ -- works
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m Found OpenMP_C: -fopenmp (found version "4.5")
+[36m--[0m Found OpenMP_CXX: -fopenmp (found version "4.5")
+[36m--[0m Found OpenMP: TRUE (found version "4.5")
+[36m--[0m Performing Test FLAG_AVAILABLE
+[36m--[0m Performing Test FLAG_AVAILABLE - Success
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/kal5-2/rammbo/devel/.private/stargazer
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/kal5-2/rammbo/devel;/opt/mrtros;/opt/mrtsoftware/local;/opt/mrtsoftware/release
+[36m--[0m This workspace overlays: /home/kal5-2/rammbo/devel;/opt/mrtros;/opt/mrtsoftware/local;/opt/mrtsoftware/release
+[36m--[0m Found PythonInterp: /opt/mrtsoftware/release/lib/mrt-build-tools/bin/python2 (found suitable version "2.7.15", minimum required is "2")
+[36m--[0m Using PYTHON_EXECUTABLE: /opt/mrtsoftware/release/lib/mrt-build-tools/bin/python2
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/bin/empy
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/kal5-2/rammbo/build/stargazer/test_results
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[36m--[0m Found PythonInterp: /opt/mrtsoftware/release/lib/mrt-build-tools/bin/python2 (found version "2.7.15")
+[36m--[0m Looking for pthread.h
+[36m--[0m Looking for pthread.h - found
+[36m--[0m Looking for pthread_create
+[36m--[0m Looking for pthread_create - found
+[36m--[0m Found Threads: TRUE
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Using Python nosetests: /usr/bin/nosetests-2.7
+[36m--[0m catkin 0.7.17
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1")
+[36m--[0m Checking for module 'yaml-cpp'
+[36m--[0m   Found yaml-cpp, version 0.5.2
+[36m--[0m Found yaml-cpp: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so
+[36m--[0m Boost version: 1.65.1
+[36m--[0m Found the following Boost libraries:
+[36m--[0m   math_c99l
+[36m--[0m   wserialization
+[36m--[0m   math_tr1l
+[36m--[0m   thread
+[36m--[0m   random
+[36m--[0m   serialization
+[36m--[0m   log_setup
+[36m--[0m   prg_exec_monitor
+[36m--[0m   wave
+[36m--[0m   system
+[36m--[0m   signals
+[36m--[0m   chrono
+[36m--[0m   math_c99
+[36m--[0m   filesystem
+[36m--[0m   locale
+[36m--[0m   timer
+[36m--[0m   math_tr1
+[36m--[0m   date_time
+[36m--[0m   regex
+[36m--[0m   graph
+[36m--[0m   program_options
+[36m--[0m   unit_test_framework
+[36m--[0m   math_tr1f
+[36m--[0m   math_c99f
+[36m--[0m   log
+[36m--[0m   atomic
+[36m--[0m Found installed version of Eigen: /usr/lib/cmake/eigen3
+[36m--[0m Found required Ceres dependency: Eigen version 3.3.4 in /usr/include/eigen3
+[36m--[0m Found required Ceres dependency: glog
+[36m--[0m Found installed version of gflags: /usr/lib/x86_64-linux-gnu/cmake/gflags
+[36m--[0m Detected gflags version: 2.2.1
+[36m--[0m Found required Ceres dependency: gflags
+[36m--[0m Found Ceres version: 2.0.0 installed in: /opt/mrtsoftware/release with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations]
+[36m--[0m Found CUDA: /usr/local/cuda (found suitable exact version "10.0")
+[36m--[0m Found OpenCV: /opt/mrtsoftware/release (found version "3.4.5")
+[36m--[0m Adding library "stargazer" with source src/CeresLocalizer.cpp;src/DebugVisualizer.cpp;src/LandmarkCalibrator.cpp;src/LandmarkFinder.cpp
+[36m--[0m Marking targets "stargazer" of package "stargazer" for installation
+[36m--[0m Marking HEADER FILES in "include" folder of package "stargazer" for installation
+[36m--[0m Marking SHARED CONTENT FOLDER "res" of package "stargazer" for installation
+[36m--[0m Adding gtest unittest "stargazer-test_ConfigHandler-test" with working dir /home/kal5-2/rammbo/src/stargazer/test
+[36m--[0m Adding gtest unittest "stargazer-test_landmark-test" with working dir /home/kal5-2/rammbo/src/stargazer/test
+[36m--[0m Adding nosetests in folder test
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/kal5-2/rammbo/build/stargazer

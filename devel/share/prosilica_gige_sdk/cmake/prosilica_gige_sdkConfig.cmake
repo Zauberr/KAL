@@ -1,0 +1,1 @@
+/home/kal5-2/rammbo/devel/.private/prosilica_gige_sdk/share/prosilica_gige_sdk/cmake/prosilica_gige_sdkConfig.cmake

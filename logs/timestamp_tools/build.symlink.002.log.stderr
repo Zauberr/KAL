@@ -1,0 +1,3 @@
+Warning: Cannot symlink from /home/kal5-2/rammbo/devel/.private/timestamp_tools/local_setup.sh to existing file /home/kal5-2/rammbo/devel/./local_setup.sh
+Warning: Source hash: 88c82952a55f3f964312475a5c5a0650
+Warning: Dest hash: 7f781bb141ca83ed4e78a5b51f28807c
